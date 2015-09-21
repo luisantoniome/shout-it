@@ -20,7 +20,7 @@
 		<div id="shouts">
 			<ul>
 				<?php while($row = mysqli_fetch_assoc($shouts)) : ?>
-					<li class="shout"><span><?php echo $row['time']; ?> - </span><?php echo $row['user'] ?>: <?php echo $row['message'] ?></li>
+					<li class="shout"><span><?php echo $row['time']; ?> - </span><strong><?php echo $row['user'] ?></strong>: <?php echo $row['message'] ?></li>
 				<?php endwhile; ?>
 			</ul>
 		</div>
