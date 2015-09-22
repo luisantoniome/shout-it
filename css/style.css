@@ -68,6 +68,13 @@ header h1 {
 	cursor: pointer;
 }
 
+.error {
+	background: #e74c3c;
+	color: white;
+	margin-bottom: 20px;
+	padding: 5px;
+}
+
 @media only screen and (max-width: 768px) {
 	#input input[type='text'] {
 		width: 98%;
